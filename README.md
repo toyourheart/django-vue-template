@@ -73,7 +73,9 @@ $ cd django-vue-template
 Setup
 ```
 $ yarn install
-$ pipenv install --dev && pipenv shell
+$ pipenv --python 3.6
+$ pipenv shell
+$ pipenv install --dev
 $ python manage.py migrate
 ```
 
